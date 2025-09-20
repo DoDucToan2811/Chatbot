@@ -24,7 +24,7 @@ from typing import Dict, Optional
 from chainlit.types import ThreadDict
 
 # Load API Keys from environment
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your_api_key_go_here"
 LITERAL_API_KEY = os.getenv("LITERAL_API_KEY")
 os.environ["OAUTH_GOOGLE_CLIENT_ID"] = os.getenv("OAUTH_GOOGLE_CLIENT_ID")
 os.environ["OAUTH_GOOGLE_CLIENT_SECRET"] = os.getenv("OAUTH_GOOGLE_CLIENT_SECRET")
