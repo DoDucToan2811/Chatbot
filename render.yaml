@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: TpBoschChatbot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "chainlit run bosch.py --host 0.0.0.0 --port $PORT"
